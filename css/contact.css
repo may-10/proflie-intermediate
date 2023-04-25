@@ -389,7 +389,7 @@ textarea{
     }    
     
     .checkbox-list{
-        display: block;
+        display: inline-block;
         text-align: center;
     }
 
