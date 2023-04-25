@@ -482,10 +482,12 @@ img {
      .concept-content {
         display: block;
         margin-bottom: 40px;
+        
      }
 
      .concept-text {
         margin-bottom: 30px;
+        text-align: center;
      }
 
      .concept-img-wrapper {
