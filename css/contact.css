@@ -385,14 +385,17 @@ textarea{
 /* -----------------*/
  body {
     width: auto;
- }    
+    text-align: center;
+    }    
     
-.checkbox-list{
+    .checkbox-list{
         display: block;
+        text-align: center;
     }
 
     .checkbox-item{
         margin-right: 0;
+        text-align: left;
     }
     
     .page-title-wrapper{
