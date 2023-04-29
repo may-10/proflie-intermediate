@@ -31,6 +31,14 @@ $('.slider').slick({
 //ハンバーガーメニュー
 $('.burger-btn').on('click',function(){
     $('.header-nav').fadeToggle(300);
-    $(this).toggleClass('cross');
+    $(this).toggleClass('close');
     $('body').toggleClass('noscroll');
 });
+
+if( $(window).width() < 768 ){//デバイスの幅が768以下のとき
+    $('.nav-item>a').on('click',function(){//.nav-item>aをクリックすると
+    $('.header-nav').fadeOut(500);//.nav-wrapperが0.5秒でフェードアウト(メニューのフェードアウト)
+    $('.burger-btn').removeClass('close')//.btn_triggerのcloseクラスを削除
+    $('body').removeClass('noscroll');//bodyのnoscrollクラスを削除
+    });
+}
