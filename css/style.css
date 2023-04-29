@@ -416,17 +416,17 @@ img {
         margin-bottom: 8px;
     }
 
-    .burger-btn.cross .bar_top {
+    .burger-btn.close .bar_top {
         transform: rotate(45deg) translate(8px,8px);
         transition: .3s;
     }
 
-    .burger-btn.cross .bar_mid {
+    .burger-btn.close .bar_mid {
         opacity: 0;
         transition: .3s;
     }
 
-    .burger-btn.cross .bar_bottom {
+    .burger-btn.close .bar_bottom {
         transform: rotate(-45deg) translate(8px,-8px);
         transition: .3s;
     }
